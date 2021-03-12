@@ -11,10 +11,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BgMusicLoop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Blue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/White.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LightOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ShowOnDisguiseTele.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -23,16 +27,20 @@
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/TrapNonBat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/OpenSesame.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDisguise.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TrapNonBat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Yay.cs" />
-      <option value="$PROJECT_DIR$/Assets/WinTele.cs" />
-      <option value="$PROJECT_DIR$/Assets/Blue.cs" />
-      <option value="$PROJECT_DIR$/Assets/Green.cs" />
+      <option value="$PROJECT_DIR$/Assets/LightSequence.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDisguise.cs" />
       <option value="$PROJECT_DIR$/Assets/White.cs" />
       <option value="$PROJECT_DIR$/Assets/Red.cs" />
-      <option value="$PROJECT_DIR$/Assets/LightSequence.cs" />
+      <option value="$PROJECT_DIR$/Assets/Green.cs" />
+      <option value="$PROJECT_DIR$/Assets/Blue.cs" />
+      <option value="$PROJECT_DIR$/Assets/WinTele.cs" />
+      <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/BgMusicLoop.cs" />
       <option value="$PROJECT_DIR$/Assets/Sequence.cs" />
+      <option value="$PROJECT_DIR$/Assets/LightOnTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/ShowOnDisguiseTele.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pXVrks9Q4ucwxQk013NnjM8p5R" />
@@ -79,6 +87,7 @@
       <workItem from="1615412080624" duration="2539000" />
       <workItem from="1615491732157" duration="5058000" />
       <workItem from="1615498585717" duration="3229000" />
+      <workItem from="1615579163953" duration="5744000" />
     </task>
     <servers />
   </component>

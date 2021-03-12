@@ -7,6 +7,7 @@ public class White : MonoBehaviour
 {
     [SerializeField] private GameObject whiteLight;
     public bool canInteract;
+    [SerializeField] private GameObject arrowUi;
     
     // Start is called before the first frame update
     void Start()
@@ -33,13 +34,14 @@ public class White : MonoBehaviour
     {
         whiteLight.SetActive(false);
         canInteract = true;
-        
+        arrowUi.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         whiteLight.SetActive(true);
         canInteract = false;
+        arrowUi.SetActive( false);
     }
 
     IEnumerator SequenceWhite()

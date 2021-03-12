@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class WinTele : MonoBehaviour
 {
+    private AudioManager _audioManager;
+    [SerializeField] private Animator _animator;
+    
     [SerializeField] private int scenes;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _audioManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -23,7 +26,16 @@ public class WinTele : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(scenes);
+            StartCoroutine(StartNextLevel());
         }
     }
+
+    IEnumerator StartNextLevel()
+    {
+        _audioManager.PlayLevelComplete();
+        _animator.SetTrigger("fade");
+        yield return new WaitForSeconds(2.25f);
+        SceneManager.LoadScene(scenes);
+    }
+    
 }

@@ -12,7 +12,7 @@ public class PlayerDisguise : MonoBehaviour
     public bool hasDisguise = false;
     public bool canRevert = false;
 
-    [SerializeField] private GameObject box, circle, bat, batL, batR, viking;
+    [SerializeField] private GameObject box, circle, bat, batL, batR, viking, arrowUi;
     
     
     // Start is called before the first frame update
@@ -56,7 +56,7 @@ public class PlayerDisguise : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Debug.Log("Kill and disguise");
+            arrowUi.SetActive(true);
             canDisguise = true;
             if (hasDisguise)
             {
@@ -69,6 +69,7 @@ public class PlayerDisguise : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            arrowUi.SetActive(false);
             canDisguise = false;
         }
     }

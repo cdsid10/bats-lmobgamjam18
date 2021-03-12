@@ -25,6 +25,10 @@ public class Sequence : MonoBehaviour
         {
             teleport.SetActive(true);
         }
+        else
+        {
+            return;
+        }
         
     }
 }

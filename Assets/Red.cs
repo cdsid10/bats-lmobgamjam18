@@ -6,6 +6,7 @@ public class Red : MonoBehaviour
 {
     [SerializeField] private GameObject redLight;
     public bool canInteract;
+    [SerializeField] private GameObject arrowUi;
     
     // Start is called before the first frame update
     void Start()
@@ -32,13 +33,14 @@ public class Red : MonoBehaviour
     {
         redLight.SetActive(false);
         canInteract = true;
-        
+        arrowUi.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         redLight.SetActive(true);
         canInteract = false;
+        arrowUi.SetActive(false);
     }
 
     IEnumerator SequenceWhite()
