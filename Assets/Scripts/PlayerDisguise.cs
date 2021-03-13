@@ -50,7 +50,7 @@ public class PlayerDisguise : MonoBehaviour
             batR.SetActive(true);
             viking.SetActive(false);
             canRevert = false;
-            _audioManager.PlayDisguise();
+            _audioManager.PlayBat();
         }
     }
 

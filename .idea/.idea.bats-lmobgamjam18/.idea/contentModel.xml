@@ -10,14 +10,18 @@
         <e p="BgMusicLoop.cs" t="Include" />
         <e p="Blue.cs" t="Include" />
         <e p="Green.cs" t="Include" />
+        <e p="Imported Assets" t="Include">
+          <e p="Medieval_pixel_art_asset_FREE" t="Include">
+            <e p="pixel_snapping_README.txt" t="Include" />
+          </e>
+        </e>
         <e p="LightOnTrigger.cs" t="Include" />
         <e p="LightSequence.cs" t="Include" />
-        <e p="Medieval_pixel_art_asset_FREE" t="Include">
-          <e p="pixel_snapping_README.txt" t="Include" />
-        </e>
         <e p="Menu.cs" t="Include" />
         <e p="Red.cs" t="Include" />
         <e p="RestartLevel.cs" t="Include" />
+        <e p="RingLose.cs" t="Include" />
+        <e p="RingWin.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="EnemyDead.cs" t="Include" />
           <e p="OpenSesame.cs" t="Include" />

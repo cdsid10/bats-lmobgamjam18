@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
     
     [SerializeField] private AudioSource _audioSource;
 
-    [SerializeField] private AudioClip levelComplete, gateOpen, disguise, fail;
+    [SerializeField] private AudioClip levelComplete, gateOpen, disguise, fail, bat, win;
     [SerializeField] private AudioClip[] lightChange;
     
     // Start is called before the first frame update
@@ -45,6 +45,16 @@ public class AudioManager : MonoBehaviour
     public void PlayDisguise()
     {
         _audioSource.PlayOneShot(disguise);
+    }
+    
+    public void PlayBat()
+    {
+        _audioSource.PlayOneShot(bat);
+    }
+    
+    public void PlayWin()
+    {
+        _audioSource.PlayOneShot(win);
     }
 
     public void PlayFail()
