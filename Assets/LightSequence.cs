@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class LightSequence : MonoBehaviour
 {
+    private AudioManager _audioManager;
     private PlayerDisguise _playerDisguise;
     
-    [SerializeField] private GameObject[] lights;
+    [SerializeField] public GameObject[] lights;
     public int currentLight;
     private bool canInteract;
     
@@ -15,6 +16,7 @@ public class LightSequence : MonoBehaviour
     void Start()
     {
         _playerDisguise = FindObjectOfType<PlayerDisguise>();
+        _audioManager = FindObjectOfType<AudioManager>();
         currentLight = 0;
 
     }
@@ -32,7 +34,7 @@ public class LightSequence : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                
+                _audioManager.PlayLightChange();
                 currentLight++;
                 
             }

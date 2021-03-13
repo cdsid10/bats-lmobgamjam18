@@ -18,17 +18,16 @@ public class Sequence : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (lightSequencer[3].gameObject.GetComponent<LightSequence>().currentLight == 4 || lightSequencer[3].gameObject.GetComponent<LightSequence>().currentLight == 0 && 
-            lightSequencer[0].gameObject.GetComponent<LightSequence>().currentLight == 1 &&
-            lightSequencer[1].gameObject.GetComponent<LightSequence>().currentLight == 2 &&
-            lightSequencer[2].gameObject.GetComponent<LightSequence>().currentLight == 3)
+        
+
+        if (lightSequencer[0].GetComponent<LightSequence>().lights[1].activeInHierarchy
+        && lightSequencer[1].GetComponent<LightSequence>().lights[2].activeInHierarchy
+        && lightSequencer[2].GetComponent<LightSequence>().lights[3].activeInHierarchy
+        && lightSequencer[3].GetComponent<LightSequence>().lights[0].activeInHierarchy)
         {
             teleport.SetActive(true);
         }
-        else
-        {
-            return;
-        }
+            
         
     }
 }

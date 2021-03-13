@@ -8,7 +8,8 @@ public class AudioManager : MonoBehaviour
     
     [SerializeField] private AudioSource _audioSource;
 
-    [SerializeField] private AudioClip levelComplete, wingsFlap;
+    [SerializeField] private AudioClip levelComplete, gateOpen;
+    [SerializeField] private AudioClip[] lightChange;
     
     // Start is called before the first frame update
     void Start()
@@ -28,5 +29,16 @@ public class AudioManager : MonoBehaviour
     public void PlayLevelComplete()
     {
         _audioSource.PlayOneShot(levelComplete);
+    }
+
+    public void PlayGateOpen()
+    {
+        _audioSource.PlayOneShot(gateOpen);
+    }
+
+    public void PlayLightChange()
+    {
+        
+        _audioSource.PlayOneShot(lightChange[Random.Range(0, lightChange.Length)]);
     }
 }

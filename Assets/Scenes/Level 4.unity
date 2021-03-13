@@ -72218,7 +72218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5106024888262254591, guid: 37cb57eeba0d7cf48b6742f5203393a0, type: 3}
       propertyPath: scenes
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5106024888262254591, guid: 37cb57eeba0d7cf48b6742f5203393a0, type: 3}
       propertyPath: _animator

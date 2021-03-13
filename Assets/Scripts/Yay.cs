@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class Yay : MonoBehaviour
 {
+    private AudioManager _audioManager;
+    
     [SerializeField] private GameObject gate;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _audioManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,15 @@ public class Yay : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gate);
+            StartCoroutine(DoorOpen());
         }
+    }
+    
+    IEnumerator DoorOpen()
+    {
+        _audioManager.PlayGateOpen();
+        yield return new WaitForSeconds(0.25f);
+        gate.SetActive(false);
+        yield return new WaitForSeconds(1f);
     }
 }
