@@ -27,8 +27,6 @@
       <option value="$PROJECT_DIR$/Assets/VikingAnim.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/TrapNonBat.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TrapNonBat.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDisguise.cs" />
       <option value="$PROJECT_DIR$/Assets/White.cs" />
       <option value="$PROJECT_DIR$/Assets/Red.cs" />
       <option value="$PROJECT_DIR$/Assets/Green.cs" />
@@ -39,10 +37,13 @@
       <option value="$PROJECT_DIR$/Assets/ShowOnDisguiseTele.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/OpenSesame.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Yay.cs" />
-      <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/LightSequence.cs" />
       <option value="$PROJECT_DIR$/Assets/Sequence.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu.cs" />
+      <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDisguise.cs" />
+      <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TrapNonBat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pXVrks9Q4ucwxQk013NnjM8p5R" />
@@ -91,6 +92,7 @@
       <workItem from="1615498585717" duration="3229000" />
       <workItem from="1615579163953" duration="5744000" />
       <workItem from="1615588103742" duration="3985000" />
+      <workItem from="1615621542723" duration="2777000" />
     </task>
     <servers />
   </component>

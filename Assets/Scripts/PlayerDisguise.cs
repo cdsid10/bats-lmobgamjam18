@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerDisguise : MonoBehaviour
 {
+    private AudioManager _audioManager;
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private Sprite[] sprites;
     
@@ -18,7 +19,7 @@ public class PlayerDisguise : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        _audioManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -34,7 +35,7 @@ public class PlayerDisguise : MonoBehaviour
             batL.SetActive(false);
             batR.SetActive(false);
             viking.SetActive(true);
-            
+            _audioManager.PlayDisguise();
 
         }
         
@@ -49,6 +50,7 @@ public class PlayerDisguise : MonoBehaviour
             batR.SetActive(true);
             viking.SetActive(false);
             canRevert = false;
+            _audioManager.PlayDisguise();
         }
     }
 

@@ -17,6 +17,7 @@
         </e>
         <e p="Menu.cs" t="Include" />
         <e p="Red.cs" t="Include" />
+        <e p="RestartLevel.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="EnemyDead.cs" t="Include" />
           <e p="OpenSesame.cs" t="Include" />

@@ -46,7 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 5357857464964153140}
   levelComplete: {fileID: 8300000, guid: aab7a07877a97de419f8d94e47f585a8, type: 3}
-  wingsFlap: {fileID: 8300000, guid: b72ee915cb511ad4bb1b8ceaece0240b, type: 3}
+  gateOpen: {fileID: 8300000, guid: 8b451e8e4a336164489e46c25f59940c, type: 3}
+  disguise: {fileID: 8300000, guid: 99d93106296880744a1e547df4852807, type: 3}
+  fail: {fileID: 8300000, guid: 9e0a23fd14053ec4086a53cdcddf4b0d, type: 3}
+  lightChange: []
 --- !u!82 &5357857464964153140
 AudioSource:
   m_ObjectHideFlags: 0
