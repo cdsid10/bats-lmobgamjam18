@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sequence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FullscreenToggle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/White.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightSequence.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,11 +42,12 @@
       <option value="$PROJECT_DIR$/Assets/Sequence.cs" />
       <option value="$PROJECT_DIR$/Assets/RestartLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TrapNonBat.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDisguise.cs" />
       <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/RingWin.cs" />
       <option value="$PROJECT_DIR$/Assets/RingLose.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDisguise.cs" />
+      <option value="$PROJECT_DIR$/Assets/FullscreenToggle.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pXVrks9Q4ucwxQk013NnjM8p5R" />
@@ -61,6 +63,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/For The Ring!\For The Ring!.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Sidd\Desktop\For The Ring!" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -95,6 +105,7 @@
       <workItem from="1615579163953" duration="5744000" />
       <workItem from="1615588103742" duration="3985000" />
       <workItem from="1615621542723" duration="8794000" />
+      <workItem from="1615640175064" duration="2043000" />
     </task>
     <servers />
   </component>

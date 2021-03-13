@@ -31574,6 +31574,10 @@ PrefabInstance:
       propertyPath: arrowUi
       value: 
       objectReference: {fileID: 546052715}
+    - target: {fileID: 2111542368846083973, guid: 2167bd8cc19c7b348897965384886b90, type: 3}
+      propertyPath: transformPE
+      value: 
+      objectReference: {fileID: 413286914428483317, guid: 06b7ef8729dfb8242a3ac948c7f90309, type: 3}
     - target: {fileID: 2111542368846083974, guid: 2167bd8cc19c7b348897965384886b90, type: 3}
       propertyPath: moveSpeed
       value: 200

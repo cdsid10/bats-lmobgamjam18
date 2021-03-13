@@ -9,6 +9,7 @@
         <e p="AudioManager.cs" t="Include" />
         <e p="BgMusicLoop.cs" t="Include" />
         <e p="Blue.cs" t="Include" />
+        <e p="FullscreenToggle.cs" t="Include" />
         <e p="Green.cs" t="Include" />
         <e p="Imported Assets" t="Include">
           <e p="Medieval_pixel_art_asset_FREE" t="Include">

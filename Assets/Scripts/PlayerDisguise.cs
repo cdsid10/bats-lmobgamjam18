@@ -13,7 +13,7 @@ public class PlayerDisguise : MonoBehaviour
     public bool hasDisguise = false;
     public bool canRevert = false;
 
-    [SerializeField] private GameObject box, circle, bat, batL, batR, viking, arrowUi;
+    [SerializeField] private GameObject box, circle, bat, batL, batR, viking, arrowUi, transformPE;
     
     
     // Start is called before the first frame update
@@ -36,7 +36,7 @@ public class PlayerDisguise : MonoBehaviour
             batR.SetActive(false);
             viking.SetActive(true);
             _audioManager.PlayDisguise();
-
+            Instantiate(transformPE, transform.position, Quaternion.identity);
         }
         
         if (hasDisguise && Input.GetKeyDown(KeyCode.X) && canRevert)
@@ -51,6 +51,7 @@ public class PlayerDisguise : MonoBehaviour
             viking.SetActive(false);
             canRevert = false;
             _audioManager.PlayBat();
+            Instantiate(transformPE, transform.position, Quaternion.identity);
         }
     }
 
